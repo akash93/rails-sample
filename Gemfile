@@ -51,5 +51,10 @@ gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
 
+group :test do
+  gem 'minitest-spec-rails'
+  gem 'minitest-rails-capybara'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
